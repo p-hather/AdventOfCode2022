@@ -44,9 +44,6 @@ scoring = {
     }
 }
 
-def rps_outcome(their_move, your_move):
-    return results[their_move][your_move]
-
 with open('02/input.txt', 'r') as file:
     rps_input = file.read().strip()
 
