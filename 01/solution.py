@@ -1,5 +1,5 @@
 
-with open('./01/input.txt') as file:
+with open('./01/input.txt', 'r') as file:
     calorie_input = file.read()
 
 calorie_groups = calorie_input.split('\n\n')
