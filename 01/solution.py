@@ -9,9 +9,17 @@ for calorie_group in calorie_groups:
     calorie_items = [int(calorie) for calorie in calorie_group.split('\n')]
     calorie_totals.append(sum(calorie_items))
 
-solution_a = max(calorie_totals)
-print(f'solution a is: {solution_a}')
+############
+## Part 1 ##
+############
+
+solution_1 = max(calorie_totals)
+print(solution_1)
+
+############
+## Part 2 ##
+############
 
 calorie_totals.sort(reverse=True)
-solution_b = sum(calorie_totals[0:3])
-print(f'solution b is: {solution_b}')
+solution_2 = sum(calorie_totals[0:3])
+print(solution_2)
