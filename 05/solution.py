@@ -19,7 +19,6 @@ with open('05/input.txt', 'r') as file:
 
 instructions = [line for line in input.split('\n') if line.startswith('move')]
 
-
 s1 = deepcopy(stacks)
 s2 = deepcopy(stacks)
 
